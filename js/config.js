@@ -75,7 +75,7 @@ $(function() {
 	simpleStore.init({
 
 		// brand can be text or image URL
-		brand : "Simple Store BR",
+		brand : "https://thumbs.dreamstime.com/b/mordedura-vermelha-sexy-dos-bordos-da-mulher-desenhos-animados-do-vetor-112025834.jpg",
 
 		// numder of products per row (accepts 1, 2 or 3)
 		numColumns : 3,
