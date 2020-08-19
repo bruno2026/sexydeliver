@@ -19,7 +19,7 @@ function fazerPedido() {
 
     let produtos = "";
 
-    let inicio = "Olá estou comprando pela Simple Store BR. ";
+    let inicio = "Olá estou comprando pela SexDeliver ";
 
     for (var key in produto) {
         produtos += " QUERO COMPRAR: " + produto[key].quantity + " " + produto[key].name + " NO TAMANHO " + produto[key].tamanho + " POR " + produto[key].price + " CADA.";
