@@ -1,33 +1,22 @@
 {
 	"products" : [
 		{
-			"name" : "Deep Easy Super Anestésico Pote Preto 7g Hot Flowers",
-			"price" : "35.99",
+			"name" : "Calça Floral Laranja Flare" ,
+			"price" : "39.90",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Tamanho" : "Único" }
 			],
-			"image" : "https://clickchique.fbitsstatic.net/img/p/creme-para-massagem-anestesico-anal-deep-easy-s269-110592/438825.jpg?w=800&h=800&v=202006011202",
-			"description" : "Deep Easy Super Anestésico Pote Preto 7g Hot Flowers. É um creme para prática de sexo anal. Experimente e pratique o desejo de uma nova experiência sem medo e sem dor."
+			"image" : "images/1518024878665.jpg",
+			"description" : "Calça Floral Laranja Flare Tamanho único (36 ao 40)."
 		},
 		{
-			"name" : "Cool T-shirt",
-			"price" : "15.99",
+			"name" : "Cropped Preto" ,
+			"price" : "39.90",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" },
-				{ "Color" : "Blue,Red" },
-			    { "OneOfAKind" : true }
+				{ "Tamanho" : "Único" }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg",
-			"description" : "This is a really cool blue T-shirt"
-		},
-		{
-			"name" : "Fun T-shirt",
-			"price" : "15.99",
-			"options" : [
-				{ "Size" : "Small,Medium,Large" }
-			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/c/c6/Grey_Tshirt.jpg",
-			"description" : "This is another fun grey T-shirt"
+			"image" : "images/1520365423804.jpg",
+			"description" : "Cropped Babadinho Preto Tamanho único (36 ao 40)."
 		}
-	]
+	]	
 }

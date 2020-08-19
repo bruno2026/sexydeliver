@@ -4,10 +4,12 @@ $(function() {
 	    // array representing the format and columns of the cart, see
 	    // the cart columns documentation
 	    cartColumns: [
-	        { attr: "name" , label: "Name" },
-	        { attr: "price" , label: "Price", view: 'currency' },
+	        { attr: "name" , label: "Nome" },
+	        { attr: "cor" , label: "Cor" },
+	        { attr: "tamanho" , label: "Tamanho" },
+	        { attr: "price" , label: "Preço", view: 'currency' },
 	        { view: "decrement" , label: false },
-	        { attr: "quantity" , label: "Qty" },
+	        { attr: "quantity" , label: "QTD" },
 	        { view: "increment" , label: false },
 	        { attr: "total" , label: "SubTotal", view: 'currency' },
 	        { view: "remove" , text: "Remove" , label: false }
@@ -19,7 +21,7 @@ $(function() {
 	    // how simpleCart should checkout, see the checkout reference for more info
 	    checkout: {
 	        type: "PayPal" ,
-	        email: "brunoo.gomes11@gmail.com"
+	        email: "you@yours.com"
 	    },
 
 	    // set the currency, see the currency reference for more info
@@ -30,7 +32,7 @@ $(function() {
 	    data: {},
 
 	    // set the cart langauge (may be used for checkout)
-	    language: "portuguese-br",
+	    language: "english-us",
 
 	    // array of item fields that will not be sent to checkout
 	    excludeFromCheckout: [
@@ -73,7 +75,7 @@ $(function() {
 	simpleStore.init({
 
 		// brand can be text or image URL
-		brand : "https://thumbs.dreamstime.com/b/sexy-lips-background-logo-174844878.jpg",
+		brand : "Simple Store BR",
 
 		// numder of products per row (accepts 1, 2 or 3)
 		numColumns : 3,
