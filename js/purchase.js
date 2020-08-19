@@ -30,7 +30,7 @@ function fazerPedido() {
     let pedido = " Meu pedido total foi: " + valor + ".";
 
     //INSIRA SEU TELEFONE NO FORMATO 55dddNumeroTelefone - EX:5511999999999
-    let msg =  "https://api.whatsapp.com/send?phone=5511999999999&text=" + inicio + produtos + " " + pedido;
+    let msg =  "https://api.whatsapp.com/send?phone=5511976992623&text=" + inicio + produtos + " " + pedido;
 
     document.querySelector(".button-whats").href = msg;
     
